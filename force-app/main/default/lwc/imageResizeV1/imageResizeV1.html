@@ -1,0 +1,21 @@
+<template>
+
+    <lightning-card icon-name="action:new_account" title="Create Account">
+        <div slot="actions">
+
+        </div>
+        <div class="slds-p-around_small">
+            <lightning-layout multiple-rows>
+                <lightning-layout-item size="12">
+                    <lightning-input type="text" class="validate" label="Account Name" name="accountName" required="true"
+                        onchange={handleChangeAccountName} value={accountName}></lightning-input>
+                </lightning-layout-item>
+            </lightning-layout>
+        </div>
+    </lightning-card>
+    <lightning-input type="file" class="validate fileId" label="File-Upload"
+        onchange={openFileUpload} multiple="false"></lightning-input>
+
+    <lightning-button onclick={handleCreate} label="Save">
+    </lightning-button>
+</template>
