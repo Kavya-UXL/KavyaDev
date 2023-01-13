@@ -3,6 +3,8 @@ public with sharing class CreateAccountWithImageResize {
     // https://marcoalmodova.medium.com/lwc-and-promises-chaining-9eac0e65e540  reference article 
     
     @AuraEnabled
+
+    //Author : Kavya K
     
     // added String nameOfFile as another parameter in the method
     // removed second parameter nameOfFile

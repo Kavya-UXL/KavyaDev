@@ -70,6 +70,7 @@ export default class ImageResize extends LightningElement {
     }
 
     isInputValid() {
+        //New comment
         let showErrorMessage = true;
         let inputFields = this.template.querySelectorAll('.validate');
         inputFields.forEach(inputField => {
