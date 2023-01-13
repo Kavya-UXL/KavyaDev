@@ -5,6 +5,7 @@ public with sharing class CreateAccountWithImageResize {
     @AuraEnabled
 
     //Author : Kavya K
+    //Date : 13-01-2023
     
     // added String nameOfFile as another parameter in the method
     // removed second parameter nameOfFile
