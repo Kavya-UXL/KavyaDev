@@ -6,7 +6,7 @@ public with sharing class CreateAccountWithImageResize {
 
     //Author : Kavya 
     //Date : 16-01-2023 
-    //Aim :- 
+    //Aim :- to upload a file with an account 
     
     // added String nameOfFile as another parameter in the method
     // removed second parameter nameOfFile
